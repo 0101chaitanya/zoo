@@ -4,30 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compile.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compile1.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compile2.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeding/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makejars.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/makejars.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runjar.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runjar.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="First commit stage 1">
+      <change afterPath="$PROJECT_DIR$/care/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/care/src/main/java/zoo/animal/care/medical/Diet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feeding/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/feeding/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_1.bat" beforeDir="false" afterPath="$PROJECT_DIR$/step_1.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +47,35 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_directory_selection": "E:/projects/zoo/feeding/src/main/java",
-    "last_opened_file_path": "E:/projects/The-Java-9-Platform-Module-System-Refactoring-to-Allow-Multiple-JokeServers-Source-code/JokeServer-Services-part1"
+    "last_directory_selection": "E:/projects/zoo/care/src/main/java/zoo/animal/care",
+    "last_opened_file_path": "E:/projects/The-Java-9-Platform-Module-System-Refactoring-to-Allow-Multiple-JokeServers-Source-code/JokeServer-Services-part1",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.37931034"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\projects\zoo" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zoo.animal.care.details" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in zoo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zoo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in zoo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +86,19 @@
       <option name="presentableId" value="Default" />
       <updated>1689692266738</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit stage 1">
+      <option name="closed" value="true" />
+      <created>1689694748287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689694748287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit stage 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit stage 1" />
   </component>
 </project>
