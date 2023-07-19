@@ -9,24 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="First commit stage 2">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/zoo_feeding_main_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feeding/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/step_4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/talks/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/content/ElephantScript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/content/SeaLionScript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/media/Announcements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/media/Signage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/schedule/Weekday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/schedule/Weekend.java" afterDir="false" />
+    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="First commit stage 3">
+      <change afterPath="$PROJECT_DIR$/staff/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/staff/src/main/java/zoo/staff/Jobs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step_1.bat" beforeDir="false" afterPath="$PROJECT_DIR$/step_1.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/step_1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_3.md" beforeDir="false" afterPath="$PROJECT_DIR$/step_3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="module-info" />
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -66,9 +56,9 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin.migration.detection.enabled": "false",
-    "last_directory_selection": "E:/projects/zoo/talks/src/main/java/zoo/animal/talks",
+    "last_directory_selection": "E:/projects/zoo/staff/src/main/java",
     "last_opened_file_path": "E:/projects/zoo",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.37931034"
   }
@@ -134,12 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689696036336</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First commit stage 3">
+      <option name="closed" value="true" />
+      <created>1689756928048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689756928048</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit stage 1" />
     <MESSAGE value="First commit stage 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit stage 2" />
+    <MESSAGE value="First commit stage 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit stage 3" />
   </component>
 </project>

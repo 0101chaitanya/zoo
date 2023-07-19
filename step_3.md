@@ -13,3 +13,7 @@ jar -cvf mods/zoo.animal.care.jar -C care/ .
 jar -cvf mods/zoo.animal.talks.jar -C talks/ .
 
 ```
+- Packaging the staff module
+```shell
+jar -cvf mods/zoo.staff.jar -C staff/ .
+```

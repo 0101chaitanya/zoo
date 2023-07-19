@@ -10,3 +10,7 @@ javac -p mods -d care care/src/main/java/zoo/animal/care/details/*.java care/src
 ```shell
 javac -p mods -d talks talks/src/main/java/zoo/animal/talks/content/*.java talks/src/main/java/zoo/animal/talks/media/*.java talks/src/main/java/zoo/animal/talks/schedule/*.java talks/src/main/java/module-info.java
 ```
+- compiling the staff module
+```shell
+javac -p mods -d staff staff/src/main/java/zoo/staff/*.java staff/src/main/java/module-info.java
+```
