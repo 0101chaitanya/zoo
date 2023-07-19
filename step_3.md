@@ -17,3 +17,7 @@ jar -cvf mods/zoo.animal.talks.jar -C talks/ .
 ```shell
 jar -cvf mods/zoo.staff.jar -C staff/ .
 ```
+- Packaging the serviceProviderInterfaceModule module
+```shell
+jar -cvf mods/zoo.tours.api.jar -C serviceProviderInterfaceModule/ .
+```

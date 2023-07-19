@@ -9,11 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="house keeping 1">
+    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="reflection in on">
+      <change afterPath="$PROJECT_DIR$/serviceProviderInterfaceModule/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceProviderInterfaceModule/src/main/java/zoo/tours/api/Souvenir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serviceProviderInterfaceModule/src/main/java/zoo/tours/api/Tour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/care/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/care/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feeding/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/feeding/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/staff/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/step_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/step_1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/talks/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/talks/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
         <option value="module-info" />
       </list>
     </option>
@@ -54,7 +58,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin.migration.detection.enabled": "false",
-    "last_directory_selection": "E:/projects/zoo/staff/src/main/java",
+    "last_directory_selection": "E:/projects/zoo/serviceProviderInterfaceModule/src/main/java",
     "last_opened_file_path": "E:/projects/zoo",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -146,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689758439113</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="reflection in on">
+      <option name="closed" value="true" />
+      <created>1689762044767</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689762044767</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +190,7 @@
     <MESSAGE value="First commit stage 3" />
     <MESSAGE value="First commit stage 4" />
     <MESSAGE value="house keeping 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="house keeping 1" />
+    <MESSAGE value="reflection in on" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflection in on" />
   </component>
 </project>

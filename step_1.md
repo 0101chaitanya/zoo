@@ -14,3 +14,7 @@ javac -p mods -d talks talks/src/main/java/zoo/animal/talks/content/*.java talks
 ```shell
 javac -p mods -d staff staff/src/main/java/zoo/staff/*.java staff/src/main/java/module-info.java
 ```
+- Compiling the zoo.serviceProviderInterfaceModule
+```shell
+javac -d serviceProviderInterfaceModule serviceProviderInterfaceModule/src/main/java/zoo/tours/api/*.java serviceProviderInterfaceModule/src/main/java/module-info.java
+```
