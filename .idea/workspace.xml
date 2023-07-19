@@ -9,15 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="reflection in on">
-      <change afterPath="$PROJECT_DIR$/serviceProviderInterfaceModule/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serviceProviderInterfaceModule/src/main/java/zoo/tours/api/Souvenir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serviceProviderInterfaceModule/src/main/java/zoo/tours/api/Tour.java" afterDir="false" />
+    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="serviceProviderInterfaceModule has be created">
+      <change afterPath="$PROJECT_DIR$/serviceLocatorModule/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/step_1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/talks/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/talks/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin.migration.detection.enabled": "false",
-    "last_directory_selection": "E:/projects/zoo/serviceProviderInterfaceModule/src/main/java",
+    "last_directory_selection": "E:/projects/zoo/serviceLocatorModule/src/main/java",
     "last_opened_file_path": "E:/projects/zoo",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -158,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689762044767</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="serviceProviderInterfaceModule has be created">
+      <option name="closed" value="true" />
+      <created>1689763516251</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689763516251</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +195,7 @@
     <MESSAGE value="First commit stage 4" />
     <MESSAGE value="house keeping 1" />
     <MESSAGE value="reflection in on" />
-    <option name="LAST_COMMIT_MESSAGE" value="reflection in on" />
+    <MESSAGE value="serviceProviderInterfaceModule has be created" />
+    <option name="LAST_COMMIT_MESSAGE" value="serviceProviderInterfaceModule has be created" />
   </component>
 </project>

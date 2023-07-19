@@ -21,3 +21,7 @@ jar -cvf mods/zoo.staff.jar -C staff/ .
 ```shell
 jar -cvf mods/zoo.tours.api.jar -C serviceProviderInterfaceModule/ .
 ```
+- Packaging serviceLocatorModule
+```shell
+jar -cvf mods/zoo.tours.reservations.jar -C serviceLocatorModule/ .
+```
