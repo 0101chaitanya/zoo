@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="zoo.feeding.main:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="First commit stage 1">
-      <change afterPath="$PROJECT_DIR$/care/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/care/src/main/java/zoo/animal/care/medical/Diet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feeding/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/feeding/src/main/java/module-info.java" afterDir="false" />
+    <list default="true" id="29aba693-154f-4407-8e57-23bfdce05ca8" name="Changes" comment="First commit stage 2">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/zoo_feeding_main_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feeding/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step_4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/talks/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/content/ElephantScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/content/SeaLionScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/media/Announcements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/media/Signage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/schedule/Weekday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/talks/src/main/java/zoo/animal/talks/schedule/Weekend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step_1.bat" beforeDir="false" afterPath="$PROJECT_DIR$/step_1.bat" afterDir="false" />
     </list>
@@ -25,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,8 +65,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_directory_selection": "E:/projects/zoo/care/src/main/java/zoo/animal/care",
-    "last_opened_file_path": "E:/projects/The-Java-9-Platform-Module-System-Refactoring-to-Allow-Multiple-JokeServers-Source-code/JokeServer-Services-part1",
+    "kotlin.migration.detection.enabled": "false",
+    "last_directory_selection": "E:/projects/zoo/talks/src/main/java/zoo/animal/talks",
+    "last_opened_file_path": "E:/projects/zoo",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.37931034"
@@ -59,20 +78,33 @@
       <recent name="E:\projects\zoo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zoo.animal.talks.media" />
+      <recent name="org.example" />
       <recent name="zoo.animal.care.details" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.zoo.feeding.main.jar">
     <configuration name="All in zoo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zoo" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="zoo.feeding.main.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/mods/zoo.feeding.main.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.zoo.feeding.main.jar" />
+      <item itemvalue="JUnit.All in zoo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.zoo.feeding.main.jar" />
         <item itemvalue="JUnit.All in zoo" />
       </list>
     </recent_temporary>
@@ -94,11 +126,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689694748287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit stage 2">
+      <option name="closed" value="true" />
+      <created>1689696036336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689696036336</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit stage 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit stage 1" />
+    <MESSAGE value="First commit stage 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit stage 2" />
   </component>
 </project>
